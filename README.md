@@ -12,7 +12,10 @@ This project implements customer segmentation for a retail store using **K-Means
 ├── model/                # Contains the trained model and the prediction logic
 │   ├── kmeans_model.pkl
 │   ├── scaler.pkl
-│   └── predict_cluster.py
+|   ├── label_encoder.pkl
+|   ├── main.py         #Main using created module
+|   ├── app.png         # app interface 
+│   └── segment.py      #Module maded for deployment with trained ml model
 ├── SegmaAI/              # Django web application to interact with the model
 │   ├── views.py
 │   ├── urls.py
