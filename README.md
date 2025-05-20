@@ -43,4 +43,4 @@ Interact with the customer segmentation model through the Django web interface p
 ## 📬 Contact
 
 For any issues, suggestions, or queries, feel free to contact me via:  
-🔗 [My Portfolio](https://myporfolio-1o1h.onrender.com/contact)
+🔗 [contact me](https://myporfolio-1o1h.onrender.com/contact)
