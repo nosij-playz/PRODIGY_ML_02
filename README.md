@@ -7,7 +7,7 @@ This project implements customer segmentation for a retail store using **K-Means
 
 ```
 .
-├── train and test/                # Jupyter Notebook(s) for training the model               # Jupyter Notebook(s) for testing the model
+├── train and test/                # Jupyter Notebook(s) for training and testing the model
 │   └── test_and_test.ipynb
 ├── model/                # Contains the trained model and the prediction logic
 │   ├── kmeans_model.pkl
