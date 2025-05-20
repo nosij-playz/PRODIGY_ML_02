@@ -1,0 +1,6 @@
+Django
+pandas
+numpy
+scikit-learn
+joblib
+matplotlib  # optional: if you generate plots
