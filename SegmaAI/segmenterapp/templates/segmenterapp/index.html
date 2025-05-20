@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SegmaAi</title>
+    <link rel="stylesheet" href="{% static 'segmenterapp/style.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Smart Grouper</h1>
+        <form method="post">
+            {% csrf_token %}
+            <label for="gender">Gender:</label>
+            <select name="gender" id="gender" required>
+                <option value="">Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" required min="1" max="100">
+
+            <label for="income">Annual Income (k$):</label>
+            <input type="number" name="income" id="income" required min="0">
+
+            <label for="spending_score">Spending Score (1-100):</label>
+            <input type="number" name="spending_score" id="spending_score" required min="1" max="100">
+
+            <button type="submit">Predict</button>
+        </form>
+
+        {% if result %}
+            <div class="result">
+                <h2>Prediction Result:</h2>
+                <p>{{ result }}</p>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
