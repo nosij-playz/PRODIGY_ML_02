@@ -38,7 +38,7 @@ Interact with the customer segmentation model through the Django web interface p
 
 ## 📸 Screenshot
 
-![App Screenshot](screenshot.png)
+![App Screenshot](Mode/app.png)
 
 ## 📬 Contact
 
